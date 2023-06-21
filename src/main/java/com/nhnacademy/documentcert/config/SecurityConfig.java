@@ -123,8 +123,8 @@ public class SecurityConfig {
     public ClientRegistration github() {
         return CommonOAuth2Provider.GITHUB.getBuilder("github")
                 .userNameAttributeName("login")
-                .clientId("6f1c47f2ba8556aefe6f")
-                .clientSecret("1cb39eb64a0bb9488c682cd01c6d1a92a8169b6c")
+                .clientId("")
+                .clientSecret("")
                 .authorizationUri("https://github.com/login/oauth/authorize")
                 .tokenUri("https://github.com/login/oauth/access_token")
                 .userInfoUri("https://api.github.com/user")

@@ -39,8 +39,6 @@ v
 Fsrc/main/java/com/nhnacademy/documentcert/service/ResidentService.java,b/d/bdb7c29bfc616ad1dfe203eef7a9b68bd78abf38
 Å
 Qsrc/main/java/com/nhnacademy/documentcert/domain/request/RelationshipRequest.java,a/a/aa11217ec3adeaee7be0ade6e135c9131c3ea057
-~
-Nsrc/main/java/com/nhnacademy/documentcert/entity/BirthDeathReportResident.java,5/2/52a40a86e751b9aa1e11afd167f495b6de5532b7
 Ö
 Usrc/main/java/com/nhnacademy/documentcert/domain/request/BirthDeathReportRequest.java,6/3/632e10b5e4573681cde8ae1bc68cadb2efe4a778
 Ö
@@ -51,8 +49,6 @@ o
 ?src/main/java/com/nhnacademy/documentcert/entity/Household.java,d/6/d6cbf3bddebd63631a50edf9cd68452cf12a49df
 Ü
 Vsrc/main/java/com/nhnacademy/documentcert/service/BirthDeathReportResidentService.java,7/f/7f43e32fce9194ed2823e2c64b39c726b4b16159
-o
-?src/main/java/com/nhnacademy/documentcert/config/JpaConfig.java,6/6/66ed38b6856e2fc7f78060cc93624dc0e73f5684
 Ç
 Rsrc/main/java/com/nhnacademy/documentcert/exception/ResidentNotFoundException.java,3/4/34d669315e8db51b9bd92ffe729bebf74694d178
 w
@@ -71,8 +67,6 @@ Rsrc/main/java/com/nhnacademy/documentcert/service/CertificateIssueServiceImpl.j
 ^src/main/java/com/nhnacademy/documentcert/service/HouseholdCompositionResidentServiceImpl.java,d/9/d9529bf0be33d034e014f3329c2a6cb627bf5afe
 {
 Ksrc/main/java/com/nhnacademy/documentcert/service/HouseholdServiceImpl.java,3/9/3935cf3f6390fa97701bff12903d088316002d8f
-v
-Fsrc/main/java/com/nhnacademy/documentcert/entity/CertificateIssue.java,8/6/8672e6c98f41220727695c74620794054ea6285a
 o
 ?src/main/java/com/nhnacademy/documentcert/entity/Authority.java,4/0/40680dd97887a2b27b91f4ceb84628f1fc73186b
 n
@@ -85,8 +79,6 @@ Hsrc/main/java/com/nhnacademy/documentcert/service/MemberServiceImpl.java,3/f/3
 Zsrc/main/java/com/nhnacademy/documentcert/repository/FamilyRelationshipRepositoryImpl.java,7/e/7eda6494a36649243053d86489af74982981e12f
 
 Osrc/main/java/com/nhnacademy/documentcert/service/CustomUserDetailsService.java,1/5/159e8cc6146df97d04bddd45175adb44858740ad
-p
-@src/main/java/com/nhnacademy/documentcert/config/RootConfig.java,9/8/98bff68d8fc0a040937795f54cb0cbb448334905
 ô
 isrc/main/java/com/nhnacademy/documentcert/controller/rest/HouseholdCompositionResidentRestController.java,1/6/16b7b6f4d8d0be07f66213014a22fdfd300f404a
 ~
@@ -99,5 +91,3 @@ Csrc/main/java/com/nhnacademy/documentcert/domain/dto/MemberDto.java,3/7/37dc4b
 Msrc/main/java/com/nhnacademy/documentcert/controller/AdminOnlyController.java,5/2/52888aa094f3b5b526930862ca87718972077839
 y
 Isrc/main/java/com/nhnacademy/documentcert/controller/IssueController.java,a/1/a1ff4787f795e581542a113f689242d04afb2fac
-t
-Dsrc/main/java/com/nhnacademy/documentcert/config/SecurityConfig.java,a/1/a1c681a2dc60cc30a67c3bac9c191e34a4812dba
