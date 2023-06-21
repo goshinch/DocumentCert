@@ -1,0 +1,40 @@
+POST /household-composition-resident HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "id": {
+    "householdSerialNumber": 1,
+    "residentSerialNumber": 2
+  },
+  "reportDate": "2023-05-01",
+  "householdRelationshipCode": "REL001",
+  "householdCompositionChangeReasonCode": "REASON001"
+}
+
+###################
+GET /household-composition-resident/1/2 HTTP/1.1
+Host: localhost:8080
+
+###################
+GET /household-composition-resident HTTP/1.1
+Host: localhost:8080
+
+###################
+PUT /household-composition-resident/1/2 HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "id": {
+    "householdSerialNumber": 1,
+    "residentSerialNumber": 2
+  },
+  "reportDate": "2023-05-01",
+  "householdRelationshipCode": "REL002",
+  "householdCompositionChangeReasonCode": "REASON002"
+}
+
+#####################
+DELETE /household-composition-resident/1/2 HTTP/1.1
+Host: localhost:8080

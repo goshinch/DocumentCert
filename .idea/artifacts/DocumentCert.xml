@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DocumentCert">
+    <output-path>$PROJECT_DIR$/out/artifacts/DocumentCert</output-path>
+    <root id="archive" name="DocumentCert_war.war">
+      <element id="artifact" artifact-name="DocumentCert:war exploded" />
+    </root>
+  </artifact>
+</component>

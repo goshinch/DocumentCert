@@ -1,0 +1,23 @@
+POST /birth-death-report-residents HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "residentSerialNumber": 7,
+  "reportResidentSerialNumber": 4,
+  "birthDeathTypeCode": "출생",
+  "birthDeathReportDate": "2012-03-17",
+  "birthReportQualificationsCode": "부",
+  "emailAddress": "nam@nhnad.co.kr",
+  "phoneNumber": "010-1234-5678"
+}
+
+###################
+GET /birth-death-report-residents HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+
+###################
+DELETE /birth-death-report-residents/1/BIRTH HTTP/1.1
+Host: localhost:8080

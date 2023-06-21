@@ -1,0 +1,3 @@
+POST /member/Shin Dong-min/1111
+Content-Type: application/json
+Host: localhost:8080

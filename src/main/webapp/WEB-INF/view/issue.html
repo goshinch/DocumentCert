@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Issue</title>
+</head>
+<body>
+<th:block th:include="fragments/heading" />
+<table>
+  <thead>
+  <tr>
+    <th th:text="number"></th>
+    <th th:text="name"></th>
+    <th th:text="certificateTypeCode"></th>
+    <th th:text="certificateIssueDate"></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="item : ${posts}">
+    <td class="number" th:text="${item.certificateConfirmationNumber}"></td>
+    <td class="name" th:text="${item.name}"></td>
+    <td class="certificateTypeCode" th:text="${item.certificateTypeCode}"></td>
+    <td class="certificateIssueDate" th:text="${item.certificateIssueDate}"></td>
+  </tr>
+  </tbody>
+</table>
+<div th:each="i: ${#numbers.sequence(begin, end)}">
+  <div th:if="${i > 0 and i <= page.totalPages}">
+    <ul><a th:href="@{all(page=${i})}" th:text="${i}"></a></ul>
+  </div>
+</div>
+</body>
+</html>

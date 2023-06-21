@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8" />
+    <title>Main</title>
+</head>
+<body>
+    <h1>Main</h1>
+
+    <th:block th:include="fragments/heading" />
+
+    <li sec:authorize-url="/certificate-issue/all">
+        <a href="/certificate-issue/all?page=1">go Issue</a>
+    </li>
+
+    <br />
+</body>
+</html>
